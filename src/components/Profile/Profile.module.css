@@ -1,0 +1,59 @@
+.profileImage {
+    width: 100px;
+    display: block;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: black;
+}
+
+.profileContainer {
+    max-width: 300px;
+    border: solid 2px black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.profileName {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.profileTagLocation {
+    font-family: Montserrat;
+    color: gray;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.profileList {
+    background-color: rgb(211, 207, 207);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.profileListItem {
+    display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  padding: 16px 12px;
+  flex-grow: 1;
+  text-align: center;
+  gap: 10px;
+}
+.profileListItemBottom {
+    font-weight: bold;
+}
